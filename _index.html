@@ -1,0 +1,392 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Mk Add Section</title>
+  <link rel="shortcut icon" type="image/jpg" href="https://grapesjs.com/docs/logo-icon.png" />
+  <link href="https://unpkg.com/grapesjs/dist/css/grapes.min.css" rel="stylesheet">
+  <script src="https://unpkg.com/grapesjs"></script>
+  <style>
+    body,
+    html {
+      height: 100%;
+      margin: 0;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div id="gjs" style="height:0px; overflow:hidden;">
+    <!-- Top navigation -->
+    <nav class="navbar navbar-expand-md fixed-top top-nav">
+      <div class="container">
+        <a class="navbar-brand" href="#"><strong>ABC Solutions</strong></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"><i class="fa fa-bars" aria-hidden="true"></i></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#services">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#story">Story</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#blog">Blog</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Intro Seven -->
+    <section class="intro carousel slide bg-overlay-light h-auto" data-child="firstChild" id="carouselExampleCaptions">
+      <ol class="carousel-indicators">
+        <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselExampleCaptions" data-slide-to="1" class=""></li>
+      </ol>
+      <div class="carousel-inner" role="listbox">
+        <div class="carousel-item active">
+
+          <div class="carousel-caption ">
+            <h2 class="display-4 text-white mb-2 mt-4">In the business world, the rearview mirror is always clearer than
+              the windshield.</h2>
+            <p class="text-white mb-3 px-5 lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do enim ad
+              minim veniam, </p>
+            <a href="#" class="btn btn-primary btn-capsul px-4 py-2">Explore More</a>
+          </div>
+        </div>
+        <div class="carousel-item">
+
+          <div class="carousel-caption ">
+            <h2 class="display-4 text-white mb-2 mt-4">Accept the challenges so that you can feel the exhilaration of
+              victory.</h2>
+            <p class="text-white mb-3 px-5 lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do enim ad
+              minim veniam, </p>
+            <a href="#" class="btn btn-primary btn-capsul px-4 py-2">Explore More</a>
+          </div>
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </section>
+
+    <!--services -->
+    <section class="info-section" id="services" data-show="true" data-app-name="service">
+      <div class="container">
+        <div class="head-box text-center mb-5">
+          <h2>Our Services</h2>
+          <h6 class="text-underline-primary">This is information panel</h6>
+          <div class="text-underline"></div>
+        </div>
+
+        <div class="three-panel-block mt-5">
+          <div class="row">
+            <div class="col-lg-4 col-md-6 col-sm-6">
+              <div class="service-block-overlay text-center mb-5 p-lg-3">
+                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1"
+                  id="Layer_1" x="0px" y="0px" viewBox="0 0 511.999 511.999"
+                  style="enable-background:new 0 0 511.999 511.999;" xml:space="preserve">
+                  <g>
+                    <g>
+                      <path
+                        d="M436.921,75.079C389.413,27.571,326.51,1.066,259.464,0.18C258.296,0.074,257.137,0,255.999,0s-2.297,0.074-3.465,0.18    C185.488,1.065,122.585,27.57,75.077,75.078C26.752,123.405,0.138,187.657,0.138,255.999s26.614,132.595,74.94,180.921    c47.508,47.508,110.41,74.013,177.457,74.898c1.168,0.107,2.327,0.18,3.464,0.18c1.138,0,2.297-0.074,3.465-0.18    c67.047-0.885,129.95-27.39,177.457-74.898c48.325-48.325,74.939-112.577,74.939-180.921    C511.861,187.657,485.247,123.405,436.921,75.079z M96.586,96.587c27.181-27.181,60.086-46.552,95.992-57.018    c-8.093,9.317-15.96,20.033-23.282,31.908c-9.339,15.146-17.425,31.562-24.196,48.919H75.865    C82.165,112.063,89.071,104.102,96.586,96.587z M56.486,150.813h78.373c-8.15,28.522-12.97,58.908-14.161,89.978H31.071    C33.176,208.987,41.865,178.465,56.486,150.813z M56.487,361.186c-14.623-27.652-23.312-58.174-25.417-89.978h89.627    c1.191,31.071,6.011,61.457,14.161,89.978H56.487z M96.587,415.412c-7.517-7.515-14.423-15.475-20.722-23.809h69.236    c6.771,17.357,14.856,33.773,24.196,48.919c7.322,11.875,15.189,22.591,23.282,31.908    C156.674,461.964,123.769,442.593,96.587,415.412z M240.79,475.322c-12.671-8.29-29.685-24.946-45.605-50.764    c-6.385-10.354-12.124-21.382-17.197-32.954h62.801V475.322z M240.79,361.186h-74.195c-8.888-28.182-14.163-58.651-15.459-89.978    h89.654V361.186z M240.79,240.791h-89.654c1.295-31.327,6.57-61.797,15.459-89.978h74.195V240.791z M240.79,120.395h-62.801    c5.073-11.572,10.812-22.6,17.197-32.954c15.919-25.818,32.934-42.475,45.605-50.764V120.395z M455.512,150.813    c14.623,27.653,23.311,58.174,25.416,89.978H391.3c-1.191-31.071-6.011-61.457-14.161-89.978H455.512z M415.413,96.587    c7.515,7.515,14.421,15.476,20.721,23.809h-69.235c-6.771-17.357-14.856-33.773-24.196-48.919    c-7.322-11.875-15.188-22.591-23.282-31.908C355.326,50.035,388.231,69.406,415.413,96.587z M271.208,36.677    c12.671,8.29,29.685,24.946,45.605,50.764c6.385,10.354,12.124,21.382,17.197,32.954h-62.801V36.677z M271.208,150.813h74.195    c8.889,28.182,14.164,58.653,15.459,89.978h-89.654V150.813z M360.861,271.208c-1.295,31.327-6.57,61.797-15.459,89.978h-74.195    v-89.978H360.861z M271.208,475.322v-83.718h62.801c-5.073,11.572-10.812,22.6-17.197,32.954    C300.893,450.377,283.879,467.032,271.208,475.322z M415.413,415.413c-27.182,27.181-60.086,46.551-95.992,57.018    c8.093-9.317,15.96-20.033,23.282-31.908c9.339-15.146,17.425-31.562,24.196-48.919h69.235    C429.835,399.937,422.928,407.898,415.413,415.413z M455.512,361.186h-78.373c8.15-28.521,12.971-58.907,14.161-89.978h89.627    C478.822,303.012,470.133,333.534,455.512,361.186z" />
+                    </g>
+
+                </svg>
+                <h3>Responsive Design</h3>
+                <p class="px-4">Never in all their history have men been able truly to conceive of the world as one a
+                  single sphere</p>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-6">
+              <div class="service-block-overlay text-center mb-5 p-lg-3">
+
+                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1"
+                  id="Capa_1" x="0px" y="0px" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;"
+                  xml:space="preserve" class="box-circle-solid mt-3 mb-3">
+                  <g>
+                    <g>
+                      <path
+                        d="M452,40h-24V0h-40v40H124V0H84v40H60C26.916,40,0,66.916,0,100v352c0,33.084,26.916,60,60,60h392    c33.084,0,60-26.916,60-60V100C512,66.916,485.084,40,452,40z M472,452c0,11.028-8.972,20-20,20H60c-11.028,0-20-8.972-20-20V188    h432V452z M472,148H40v-48c0-11.028,8.972-20,20-20h24v40h40V80h264v40h40V80h24c11.028,0,20,8.972,20,20V148z" />
+                    </g>
+                  </g>
+                  <g>
+                    <g>
+                      <rect x="76" y="230" width="40" height="40" />
+                    </g>
+                  </g>
+                  <g>
+                    <g>
+                      <rect x="156" y="230" width="40" height="40" />
+                    </g>
+                  </g>
+                  <g>
+                    <g>
+                      <rect x="236" y="230" width="40" height="40" />
+                    </g>
+                  </g>
+                  <g>
+                    <g>
+                      <rect x="316" y="230" width="40" height="40" />
+                    </g>
+                  </g>
+                  <g>
+                    <g>
+                      <rect x="396" y="230" width="40" height="40" />
+                    </g>
+                  </g>
+                  <g>
+                    <g>
+                      <rect x="76" y="310" width="40" height="40" />
+                    </g>
+                  </g>
+                  <g>
+                    <g>
+                      <rect x="156" y="310" width="40" height="40" />
+                    </g>
+                  </g>
+                  <g>
+                    <g>
+                      <rect x="236" y="310" width="40" height="40" />
+                    </g>
+                  </g>
+                  <g>
+                    <g>
+                      <rect x="316" y="310" width="40" height="40" />
+                    </g>
+                  </g>
+                  <g>
+                    <g>
+                      <rect x="76" y="390" width="40" height="40" />
+                    </g>
+                  </g>
+                  <g>
+                    <g>
+                      <rect x="156" y="390" width="40" height="40" />
+                    </g>
+                  </g>
+                  <g>
+                    <g>
+                      <rect x="236" y="390" width="40" height="40" />
+                    </g>
+                  </g>
+                  <g>
+                    <g>
+                      <rect x="316" y="390" width="40" height="40" />
+                    </g>
+                  </g>
+                  <g>
+                    <g>
+                      <rect x="396" y="310" width="40" height="40" />
+                    </g>
+
+                </svg>
+                <h3>Integrated Calendar</h3>
+                <p class="px-4">Never in all their history have men been able truly to conceive of the world as one a
+                  single sphere</p>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-6">
+              <div class="service-block-overlay text-center mb-5 p-lg-3">
+                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1"
+                  id="Layer_1" x="0px" y="0px" viewBox="0 0 511.999 511.999"
+                  style="enable-background:new 0 0 511.999 511.999;" xml:space="preserve">
+                  <g>
+                    <g>
+                      <path
+                        d="M436.921,75.079C389.413,27.571,326.51,1.066,259.464,0.18C258.296,0.074,257.137,0,255.999,0s-2.297,0.074-3.465,0.18    C185.488,1.065,122.585,27.57,75.077,75.078C26.752,123.405,0.138,187.657,0.138,255.999s26.614,132.595,74.94,180.921    c47.508,47.508,110.41,74.013,177.457,74.898c1.168,0.107,2.327,0.18,3.464,0.18c1.138,0,2.297-0.074,3.465-0.18    c67.047-0.885,129.95-27.39,177.457-74.898c48.325-48.325,74.939-112.577,74.939-180.921    C511.861,187.657,485.247,123.405,436.921,75.079z M96.586,96.587c27.181-27.181,60.086-46.552,95.992-57.018    c-8.093,9.317-15.96,20.033-23.282,31.908c-9.339,15.146-17.425,31.562-24.196,48.919H75.865    C82.165,112.063,89.071,104.102,96.586,96.587z M56.486,150.813h78.373c-8.15,28.522-12.97,58.908-14.161,89.978H31.071    C33.176,208.987,41.865,178.465,56.486,150.813z M56.487,361.186c-14.623-27.652-23.312-58.174-25.417-89.978h89.627    c1.191,31.071,6.011,61.457,14.161,89.978H56.487z M96.587,415.412c-7.517-7.515-14.423-15.475-20.722-23.809h69.236    c6.771,17.357,14.856,33.773,24.196,48.919c7.322,11.875,15.189,22.591,23.282,31.908    C156.674,461.964,123.769,442.593,96.587,415.412z M240.79,475.322c-12.671-8.29-29.685-24.946-45.605-50.764    c-6.385-10.354-12.124-21.382-17.197-32.954h62.801V475.322z M240.79,361.186h-74.195c-8.888-28.182-14.163-58.651-15.459-89.978    h89.654V361.186z M240.79,240.791h-89.654c1.295-31.327,6.57-61.797,15.459-89.978h74.195V240.791z M240.79,120.395h-62.801    c5.073-11.572,10.812-22.6,17.197-32.954c15.919-25.818,32.934-42.475,45.605-50.764V120.395z M455.512,150.813    c14.623,27.653,23.311,58.174,25.416,89.978H391.3c-1.191-31.071-6.011-61.457-14.161-89.978H455.512z M415.413,96.587    c7.515,7.515,14.421,15.476,20.721,23.809h-69.235c-6.771-17.357-14.856-33.773-24.196-48.919    c-7.322-11.875-15.188-22.591-23.282-31.908C355.326,50.035,388.231,69.406,415.413,96.587z M271.208,36.677    c12.671,8.29,29.685,24.946,45.605,50.764c6.385,10.354,12.124,21.382,17.197,32.954h-62.801V36.677z M271.208,150.813h74.195    c8.889,28.182,14.164,58.653,15.459,89.978h-89.654V150.813z M360.861,271.208c-1.295,31.327-6.57,61.797-15.459,89.978h-74.195    v-89.978H360.861z M271.208,475.322v-83.718h62.801c-5.073,11.572-10.812,22.6-17.197,32.954    C300.893,450.377,283.879,467.032,271.208,475.322z M415.413,415.413c-27.182,27.181-60.086,46.551-95.992,57.018    c8.093-9.317,15.96-20.033,23.282-31.908c9.339-15.146,17.425-31.562,24.196-48.919h69.235    C429.835,399.937,422.928,407.898,415.413,415.413z M455.512,361.186h-78.373c8.15-28.521,12.971-58.907,14.161-89.978h89.627    C478.822,303.012,470.133,333.534,455.512,361.186z" />
+                    </g>
+
+                </svg>
+                <h3>Bug Free Solutions</h3>
+                <p class="px-4">Never in all their history have men been able truly to conceive of the world as one a
+                  single sphere</p>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-6">
+              <div class="service-block-overlay text-center p-lg-3">
+                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1"
+                  id="Layer_1" x="0px" y="0px" viewBox="0 0 511.999 511.999"
+                  style="enable-background:new 0 0 511.999 511.999;" xml:space="preserve">
+                  <g>
+                    <g>
+                      <path
+                        d="M436.921,75.079C389.413,27.571,326.51,1.066,259.464,0.18C258.296,0.074,257.137,0,255.999,0s-2.297,0.074-3.465,0.18    C185.488,1.065,122.585,27.57,75.077,75.078C26.752,123.405,0.138,187.657,0.138,255.999s26.614,132.595,74.94,180.921    c47.508,47.508,110.41,74.013,177.457,74.898c1.168,0.107,2.327,0.18,3.464,0.18c1.138,0,2.297-0.074,3.465-0.18    c67.047-0.885,129.95-27.39,177.457-74.898c48.325-48.325,74.939-112.577,74.939-180.921    C511.861,187.657,485.247,123.405,436.921,75.079z M96.586,96.587c27.181-27.181,60.086-46.552,95.992-57.018    c-8.093,9.317-15.96,20.033-23.282,31.908c-9.339,15.146-17.425,31.562-24.196,48.919H75.865    C82.165,112.063,89.071,104.102,96.586,96.587z M56.486,150.813h78.373c-8.15,28.522-12.97,58.908-14.161,89.978H31.071    C33.176,208.987,41.865,178.465,56.486,150.813z M56.487,361.186c-14.623-27.652-23.312-58.174-25.417-89.978h89.627    c1.191,31.071,6.011,61.457,14.161,89.978H56.487z M96.587,415.412c-7.517-7.515-14.423-15.475-20.722-23.809h69.236    c6.771,17.357,14.856,33.773,24.196,48.919c7.322,11.875,15.189,22.591,23.282,31.908    C156.674,461.964,123.769,442.593,96.587,415.412z M240.79,475.322c-12.671-8.29-29.685-24.946-45.605-50.764    c-6.385-10.354-12.124-21.382-17.197-32.954h62.801V475.322z M240.79,361.186h-74.195c-8.888-28.182-14.163-58.651-15.459-89.978    h89.654V361.186z M240.79,240.791h-89.654c1.295-31.327,6.57-61.797,15.459-89.978h74.195V240.791z M240.79,120.395h-62.801    c5.073-11.572,10.812-22.6,17.197-32.954c15.919-25.818,32.934-42.475,45.605-50.764V120.395z M455.512,150.813    c14.623,27.653,23.311,58.174,25.416,89.978H391.3c-1.191-31.071-6.011-61.457-14.161-89.978H455.512z M415.413,96.587    c7.515,7.515,14.421,15.476,20.721,23.809h-69.235c-6.771-17.357-14.856-33.773-24.196-48.919    c-7.322-11.875-15.188-22.591-23.282-31.908C355.326,50.035,388.231,69.406,415.413,96.587z M271.208,36.677    c12.671,8.29,29.685,24.946,45.605,50.764c6.385,10.354,12.124,21.382,17.197,32.954h-62.801V36.677z M271.208,150.813h74.195    c8.889,28.182,14.164,58.653,15.459,89.978h-89.654V150.813z M360.861,271.208c-1.295,31.327-6.57,61.797-15.459,89.978h-74.195    v-89.978H360.861z M271.208,475.322v-83.718h62.801c-5.073,11.572-10.812,22.6-17.197,32.954    C300.893,450.377,283.879,467.032,271.208,475.322z M415.413,415.413c-27.182,27.181-60.086,46.551-95.992,57.018    c8.093-9.317,15.96-20.033,23.282-31.908c9.339-15.146,17.425-31.562,24.196-48.919h69.235    C429.835,399.937,422.928,407.898,415.413,415.413z M455.512,361.186h-78.373c8.15-28.521,12.971-58.907,14.161-89.978h89.627    C478.822,303.012,470.133,333.534,455.512,361.186z" />
+                    </g>
+
+                </svg>
+                <h3>Cloud Storage</h3>
+                <p class="px-4">Never in all their history have men been able truly to conceive of the world as one a
+                  single sphere</p>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-6">
+              <div class="service-block-overlay text-center p-lg-3">
+                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1"
+                  id="Layer_1" x="0px" y="0px" viewBox="0 0 511.999 511.999"
+                  style="enable-background:new 0 0 511.999 511.999;" xml:space="preserve">
+                  <g>
+                    <g>
+                      <path
+                        d="M436.921,75.079C389.413,27.571,326.51,1.066,259.464,0.18C258.296,0.074,257.137,0,255.999,0s-2.297,0.074-3.465,0.18    C185.488,1.065,122.585,27.57,75.077,75.078C26.752,123.405,0.138,187.657,0.138,255.999s26.614,132.595,74.94,180.921    c47.508,47.508,110.41,74.013,177.457,74.898c1.168,0.107,2.327,0.18,3.464,0.18c1.138,0,2.297-0.074,3.465-0.18    c67.047-0.885,129.95-27.39,177.457-74.898c48.325-48.325,74.939-112.577,74.939-180.921    C511.861,187.657,485.247,123.405,436.921,75.079z M96.586,96.587c27.181-27.181,60.086-46.552,95.992-57.018    c-8.093,9.317-15.96,20.033-23.282,31.908c-9.339,15.146-17.425,31.562-24.196,48.919H75.865    C82.165,112.063,89.071,104.102,96.586,96.587z M56.486,150.813h78.373c-8.15,28.522-12.97,58.908-14.161,89.978H31.071    C33.176,208.987,41.865,178.465,56.486,150.813z M56.487,361.186c-14.623-27.652-23.312-58.174-25.417-89.978h89.627    c1.191,31.071,6.011,61.457,14.161,89.978H56.487z M96.587,415.412c-7.517-7.515-14.423-15.475-20.722-23.809h69.236    c6.771,17.357,14.856,33.773,24.196,48.919c7.322,11.875,15.189,22.591,23.282,31.908    C156.674,461.964,123.769,442.593,96.587,415.412z M240.79,475.322c-12.671-8.29-29.685-24.946-45.605-50.764    c-6.385-10.354-12.124-21.382-17.197-32.954h62.801V475.322z M240.79,361.186h-74.195c-8.888-28.182-14.163-58.651-15.459-89.978    h89.654V361.186z M240.79,240.791h-89.654c1.295-31.327,6.57-61.797,15.459-89.978h74.195V240.791z M240.79,120.395h-62.801    c5.073-11.572,10.812-22.6,17.197-32.954c15.919-25.818,32.934-42.475,45.605-50.764V120.395z M455.512,150.813    c14.623,27.653,23.311,58.174,25.416,89.978H391.3c-1.191-31.071-6.011-61.457-14.161-89.978H455.512z M415.413,96.587    c7.515,7.515,14.421,15.476,20.721,23.809h-69.235c-6.771-17.357-14.856-33.773-24.196-48.919    c-7.322-11.875-15.188-22.591-23.282-31.908C355.326,50.035,388.231,69.406,415.413,96.587z M271.208,36.677    c12.671,8.29,29.685,24.946,45.605,50.764c6.385,10.354,12.124,21.382,17.197,32.954h-62.801V36.677z M271.208,150.813h74.195    c8.889,28.182,14.164,58.653,15.459,89.978h-89.654V150.813z M360.861,271.208c-1.295,31.327-6.57,61.797-15.459,89.978h-74.195    v-89.978H360.861z M271.208,475.322v-83.718h62.801c-5.073,11.572-10.812,22.6-17.197,32.954    C300.893,450.377,283.879,467.032,271.208,475.322z M415.413,415.413c-27.182,27.181-60.086,46.551-95.992,57.018    c8.093-9.317,15.96-20.033,23.282-31.908c9.339-15.146,17.425-31.562,24.196-48.919h69.235    C429.835,399.937,422.928,407.898,415.413,415.413z M455.512,361.186h-78.373c8.15-28.521,12.971-58.907,14.161-89.978h89.627    C478.822,303.012,470.133,333.534,455.512,361.186z" />
+                    </g>
+
+                </svg>
+                <h3>Premium Features</h3>
+                <p class="px-4">Never in all their history have men been able truly to conceive of the world as one a
+                  single sphere</p>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-6">
+              <div class="service-block-overlay text-center p-lg-3">
+                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1"
+                  id="Layer_1" x="0px" y="0px" viewBox="0 0 511.999 511.999"
+                  style="enable-background:new 0 0 511.999 511.999;" xml:space="preserve">
+                  <g>
+                    <g>
+                      <path
+                        d="M436.921,75.079C389.413,27.571,326.51,1.066,259.464,0.18C258.296,0.074,257.137,0,255.999,0s-2.297,0.074-3.465,0.18    C185.488,1.065,122.585,27.57,75.077,75.078C26.752,123.405,0.138,187.657,0.138,255.999s26.614,132.595,74.94,180.921    c47.508,47.508,110.41,74.013,177.457,74.898c1.168,0.107,2.327,0.18,3.464,0.18c1.138,0,2.297-0.074,3.465-0.18    c67.047-0.885,129.95-27.39,177.457-74.898c48.325-48.325,74.939-112.577,74.939-180.921    C511.861,187.657,485.247,123.405,436.921,75.079z M96.586,96.587c27.181-27.181,60.086-46.552,95.992-57.018    c-8.093,9.317-15.96,20.033-23.282,31.908c-9.339,15.146-17.425,31.562-24.196,48.919H75.865    C82.165,112.063,89.071,104.102,96.586,96.587z M56.486,150.813h78.373c-8.15,28.522-12.97,58.908-14.161,89.978H31.071    C33.176,208.987,41.865,178.465,56.486,150.813z M56.487,361.186c-14.623-27.652-23.312-58.174-25.417-89.978h89.627    c1.191,31.071,6.011,61.457,14.161,89.978H56.487z M96.587,415.412c-7.517-7.515-14.423-15.475-20.722-23.809h69.236    c6.771,17.357,14.856,33.773,24.196,48.919c7.322,11.875,15.189,22.591,23.282,31.908    C156.674,461.964,123.769,442.593,96.587,415.412z M240.79,475.322c-12.671-8.29-29.685-24.946-45.605-50.764    c-6.385-10.354-12.124-21.382-17.197-32.954h62.801V475.322z M240.79,361.186h-74.195c-8.888-28.182-14.163-58.651-15.459-89.978    h89.654V361.186z M240.79,240.791h-89.654c1.295-31.327,6.57-61.797,15.459-89.978h74.195V240.791z M240.79,120.395h-62.801    c5.073-11.572,10.812-22.6,17.197-32.954c15.919-25.818,32.934-42.475,45.605-50.764V120.395z M455.512,150.813    c14.623,27.653,23.311,58.174,25.416,89.978H391.3c-1.191-31.071-6.011-61.457-14.161-89.978H455.512z M415.413,96.587    c7.515,7.515,14.421,15.476,20.721,23.809h-69.235c-6.771-17.357-14.856-33.773-24.196-48.919    c-7.322-11.875-15.188-22.591-23.282-31.908C355.326,50.035,388.231,69.406,415.413,96.587z M271.208,36.677    c12.671,8.29,29.685,24.946,45.605,50.764c6.385,10.354,12.124,21.382,17.197,32.954h-62.801V36.677z M271.208,150.813h74.195    c8.889,28.182,14.164,58.653,15.459,89.978h-89.654V150.813z M360.861,271.208c-1.295,31.327-6.57,61.797-15.459,89.978h-74.195    v-89.978H360.861z M271.208,475.322v-83.718h62.801c-5.073,11.572-10.812,22.6-17.197,32.954    C300.893,450.377,283.879,467.032,271.208,475.322z M415.413,415.413c-27.182,27.181-60.086,46.551-95.992,57.018    c8.093-9.317,15.96-20.033,23.282-31.908c9.339-15.146,17.425-31.562,24.196-48.919h69.235    C429.835,399.937,422.928,407.898,415.413,415.413z M455.512,361.186h-78.373c8.15-28.521,12.971-58.907,14.161-89.978h89.627    C478.822,303.012,470.133,333.534,455.512,361.186z" />
+                    </g>
+
+                </svg>
+                <h3>24/7 Support</h3>
+                <p class="px-4">Never in all their history have men been able truly to conceive of the world as one a
+                  single sphere</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- story -->
+    <section class="info-section bg-primary py-0" data-show="true" data-app-name="info" id="story">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-6 col-lg-6 content-half mt-md-0 pl-5 pt-4">
+            <div class="head-box mb-5 pl-5 mt-2">
+              <h2 class="text-white">Our Story</h2>
+              <h6 class="text-white text-underline-rb-white">This is information panel</h6>
+              <div class="text-underline-white"></div>
+            </div>
+            <ul class="pl-5">
+              <li>
+                <img src="assets/images/monitor.png">
+                <span class="list-content">
+                  <strong>Responsive Design</strong>
+                  <br>Eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                </span>
+              </li>
+              <li>
+                <img src="assets/images/diamond.png">
+                <span class="list-content">
+                  <strong>Cloud Storage</strong>
+                  <br>Eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                </span>
+              </li>
+              <li>
+                <img src="assets/images/puzzle.png">
+                <span class="list-content">
+                  <strong>Premium Features</strong>
+                  <br>Eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                </span>
+              </li>
+            </ul>
+          </div>
+          <div class="col-md-6 p-0 m-0">
+            <img src="assets/images/unsplash-1.jpg" class="img-fluid">
+          </div>
+        </div>
+    </section>
+
+    <!-- blog-->
+    <section class="blog-section py-5" data-show="true" data-app-name="blog" id="blog">
+      <div class="container">
+        <div class="head-box text-center mb-5">
+          <h2>Our blog post</h2>
+          <h6 class="text-underline-primary">This is Blog panel</h6>
+          <div class="text-underline"></div>
+        </div>
+        <div class="row">
+          <div class="col col-xs-12">
+            <div class="blog-grids">
+              <div class="grid">
+                <div class="entry-media">
+                  <img src="assets/images/mimi-thian.jpg" alt="">
+                </div>
+                <div class="entry-body">
+                  <span class="cat mk_blog_category">inspiration</span>
+                  <h3><a class="mk_blog_title" href="#" target="_blank">Beautiful css3 buttons with hover
+                      effects</a></h3>
+                  <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut..</p>
+                  <div class="read-more-date">
+                    <a href="#" target="_blank">Read More..</a>
+                    <span class="date mk_blog_date">3 Hours ago</span>
+                  </div>
+                </div>
+              </div>
+              <div class="grid">
+                <div class="entry-media">
+                  <img src="assets/images/unsplash-2.jpg" alt="">
+                </div>
+                <div class="entry-body">
+                  <span class="cat">photoshop</span>
+                  <h3><a href="#" target="_blank">40+ Best Free Modern Business Card PSD Templates</a></h3>
+                  <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut..</p>
+                  <div class="read-more-date">
+                    <a href="#" target="_blank">Read More..</a>
+                    <span class="date">3 Hours ago</span>
+                  </div>
+                </div>
+              </div>
+              <div class="grid">
+                <div class="entry-media">
+                  <img src="assets/images/unsplash-1.jpg" alt="">
+                </div>
+                <div class="entry-body">
+                  <span class="cat">Wordpress</span>
+                  <h3><a href="#" target="_blank">34+ Beautiful Free WordPress Blog Themes</a></h3>
+                  <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut..</p>
+                  <div class="read-more-date">
+                    <a href="#" target="_blank">Read More..</a>
+                    <span class="date">3 Hours ago</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section data-show="true" data-app-name="footer">
+      <footer>
+        <div class="container">
+          <div class="col-md-12">
+            <p>© <span>2020</span> <a href="#" class="transition">ABC Solutions</a> All rightse reservd.</p>
+          </div>
+        </div>
+      </footer>
+    </section>
+  </div>
+  <script src="assets/js/dynamic_listener.js"></script>
+  <script src="assets/js/custom.js"></script>
+</body>
+
+</html>

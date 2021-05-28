@@ -1,0 +1,23 @@
+{
+  "name": "mk-add-section",
+  "version": "1.0.1",
+  "description": "Mk Add Section",
+  "main": "dist/mk-add-section.min.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/iabhiyaan/mk-add-section.git"
+  },
+  "scripts": {
+    "start": "grapesjs-cli serve",
+    "build": "grapesjs-cli build",
+    "bump": "npm version patch -m 'Bump v%s'"
+  },
+  "keywords": [
+    "grapesjs",
+    "plugin"
+  ],
+  "devDependencies": {
+    "grapesjs-cli": "^1.0.15"
+  },
+  "license": "MIT"
+}

@@ -1,0 +1,3 @@
+{
+   "gjsHtml": "<section data-gjs-type='default' draggable='true' data-show='true' data-app-name='new section' class='text-center info-section' style='color:blue;text-align:center;margin-top:50px;'><div><button class='btn btn-danger addNewSection'>Add section</button></div> <h4>Text add dynamically</h4> </section>"
+}
